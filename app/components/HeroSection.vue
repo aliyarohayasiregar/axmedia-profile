@@ -6,22 +6,22 @@ import { company } from '~/data/company'
   <section class="relative flex min-h-[92vh] items-end overflow-hidden pb-16 pt-36">
     <div class="shell grid w-full gap-14 md:grid-cols-[1.25fr_0.75fr] md:items-end">
       <div>
-        <AppReveal as="p" class="label">{{ company.legalName }}</AppReveal>
+        <AppReveal as="p" class="label">{{ company.legalName }} · {{ company.tagline }}</AppReveal>
         <AppReveal :delay="120">
           <h1 class="display mt-8 text-[13vw] leading-[0.95] md:text-[7.4vw]">
-            Media yang<br >
-            <span class="italic">menggerakkan</span> orang
+            We turn retail spaces<br >
+            into <span class="italic">brand experiences</span>
           </h1>
         </AppReveal>
         <AppReveal :delay="240">
           <div class="mt-12 flex flex-wrap items-center gap-x-8 gap-y-4">
             <a
-              href="#kontak"
+              href="#contact"
               class="rounded-full bg-ink px-7 py-3 text-sm text-paper transition-opacity duration-300 hover:opacity-80"
             >
-              Bicarakan proyek Anda
+              Start a project
             </a>
-            <a href="#layanan" class="link-underline text-sm text-muted">Lihat layanan kami</a>
+            <a href="#services" class="link-underline text-sm text-muted">See what we do</a>
           </div>
         </AppReveal>
       </div>
