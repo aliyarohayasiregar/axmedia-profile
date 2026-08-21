@@ -6,27 +6,27 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   app: {
     head: {
-      htmlAttrs: { lang: 'id' },
-      title: 'Axmedia — Integrated media & communications partner',
+      htmlAttrs: { lang: 'en' },
+      title: 'Nova Axmedia — Retail branding & out-of-home media in Indonesia',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'Axmedia adalah mitra media dan komunikasi terintegrasi di Indonesia: strategi, kreatif, performa digital, dan brand experience.',
+            'PT Nova Axmedia Branding is a specialist retail branding and OOH media company in Indonesia: outdoor signage, indoor branding, activation, and nationwide production & installation.',
         },
         { name: 'theme-color', content: '#F6F5F2' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:site_name', content: 'Axmedia' },
+        { property: 'og:site_name', content: 'Nova Axmedia' },
         {
           property: 'og:title',
-          content: 'Axmedia — Integrated media & communications partner',
+          content: 'Nova Axmedia — Retail branding & out-of-home media in Indonesia',
         },
         {
           property: 'og:description',
           content:
-            'Mitra media dan komunikasi terintegrasi di Indonesia: strategi, kreatif, performa digital, dan brand experience.',
+            '1000+ stores branded across 30+ cities. Outdoor signage, indoor branding, activation & OOH, and in-house production with nationwide installation.',
         },
         { name: 'twitter:card', content: 'summary_large_image' },
       ],

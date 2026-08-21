@@ -1,10 +1,11 @@
 <script setup lang="ts">
 const links = [
-  { label: 'Tentang', href: '#tentang' },
-  { label: 'Layanan', href: '#layanan' },
-  { label: 'Pendekatan', href: '#pendekatan' },
-  { label: 'Karya', href: '#karya' },
-  { label: 'Kontak', href: '#kontak' },
+  { label: 'About', href: '#about' },
+  { label: 'Services', href: '#services' },
+  { label: 'Why us', href: '#why' },
+  { label: 'Coverage', href: '#coverage' },
+  { label: 'Work', href: '#work' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 const open = ref(false)
@@ -39,7 +40,7 @@ watch(open, (value) => {
         <img src="/logo.png" alt="Axmedia" class="h-6 w-auto md:h-7" width="1200" height="181">
       </NuxtLink>
 
-      <nav class="hidden items-center gap-10 md:flex">
+      <nav class="hidden items-center gap-8 md:flex">
         <a
           v-for="link in links"
           :key="link.href"
@@ -51,16 +52,16 @@ watch(open, (value) => {
       </nav>
 
       <a
-        href="#kontak"
+        href="#contact"
         class="hidden rounded-full border border-ink px-5 py-2 text-sm transition-colors duration-300 hover:bg-ink hover:text-paper md:inline-block"
       >
-        Mulai proyek
+        Start a project
       </a>
 
       <button
         class="flex h-10 w-10 items-center justify-center md:hidden"
         :aria-expanded="open"
-        aria-label="Buka menu"
+        aria-label="Open menu"
         @click="open = !open"
       >
         <span class="relative block h-3 w-6">

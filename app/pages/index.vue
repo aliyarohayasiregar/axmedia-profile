@@ -3,9 +3,11 @@
     <HeroSection />
     <AboutSection />
     <ServicesSection />
-    <ApproachSection />
-    <WorkSection />
+    <WhySection />
+    <CoverageSection />
     <ClientsSection />
+    <WorkSection />
+    <ApproachSection />
     <ContactSection />
   </div>
 </template>

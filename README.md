@@ -1,6 +1,7 @@
-# Axmedia — Company Profile
+# Nova Axmedia — Company Profile
 
-Situs company profile satu halaman untuk Axmedia, dibangun dengan Nuxt 4 + Tailwind CSS.
+Situs company profile satu halaman untuk PT Nova Axmedia Branding (retail branding & OOH media),
+dibangun dengan Nuxt 4 + Tailwind CSS.
 Arah desain mengacu pada referensi dentsu.com: banyak ruang kosong, tipografi serif editorial,
 palet netral hangat dengan satu aksen, dan animasi masuk yang halus.
 
@@ -8,12 +9,13 @@ palet netral hangat dengan satu aksen, dan animasi masuk yang halus.
 
 - `app/data/company.ts` — seluruh teks dan angka konten (profil, layanan, karya, klien, kontak).
   Ubah file ini untuk mengganti isi situs tanpa menyentuh komponen.
-- `app/components/` — komponen per bagian: hero, tentang, layanan, pendekatan, karya, klien, kontak.
+- `app/components/` — komponen per bagian: hero, about, services, why, coverage, clients, case study,
+  engagement process, kontak.
+- `public/work/` — foto case study (MR.D.I.Y., RELX, Indomaret, Kraft Heinz ABC, Pocari, aktivasi).
 - `app/assets/css/main.css` — token dasar dan kelas utilitas (`shell`, `label`, `display`, `reveal`).
 - `tailwind.config.js` — warna (`ink`, `paper`, `muted`, `line`, `accent`) dan font.
 
-> Catatan: konten saat ini masih placeholder karena file PDF company profile yang diunggah rusak
-> (stream binernya tidak bisa dibaca). Ganti isi `app/data/company.ts` dengan materi final.
+Konten mengikuti deck `Axmedia Company Profile 2026`.
 
 ## Menjalankan
 

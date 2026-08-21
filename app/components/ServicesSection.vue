@@ -3,14 +3,14 @@ import { services } from '~/data/company'
 </script>
 
 <template>
-  <section id="layanan" class="rule scroll-mt-24 py-28 md:py-36">
+  <section id="services" class="rule scroll-mt-24 py-28 md:py-36">
     <div class="shell">
       <div class="grid gap-14 md:grid-cols-[0.35fr_0.65fr]">
-        <AppReveal as="p" class="label">Layanan</AppReveal>
+        <AppReveal as="p" class="label">What we do</AppReveal>
         <AppReveal>
           <h2 class="display text-4xl md:text-6xl">
-            Empat kapabilitas,<br >
-            satu tim terpadu
+            Four service lines.<br >
+            One end-to-end partner.
           </h2>
         </AppReveal>
       </div>

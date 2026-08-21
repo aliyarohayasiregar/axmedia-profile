@@ -3,22 +3,22 @@ import { company } from '~/data/company'
 </script>
 
 <template>
-  <section id="kontak" class="rule scroll-mt-24 py-28 md:py-36">
+  <section id="contact" class="rule scroll-mt-24 py-28 md:py-36">
     <div class="shell grid gap-14 md:grid-cols-[0.35fr_0.65fr]">
-      <AppReveal as="p" class="label">Kontak</AppReveal>
+      <AppReveal as="p" class="label">Get in touch</AppReveal>
 
       <div>
         <AppReveal>
           <h2 class="display text-5xl md:text-[5rem]">
-            Mari mulai<br >
-            percakapannya
+            Your vision.<br >
+            Our execution.
           </h2>
         </AppReveal>
 
         <AppReveal :delay="120">
           <p class="mt-8 max-w-lg text-base leading-relaxed text-muted">
-            Ceritakan tantangan merek Anda. Kami akan menyiapkan pandangan awal dan rekomendasi
-            langkah berikutnya dalam waktu dua hari kerja.
+            Let’s build the next big thing together. Send us the brief and we’ll come back with a
+            site survey plan and indicative scope.
           </p>
         </AppReveal>
 
@@ -34,16 +34,21 @@ import { company } from '~/data/company'
         <AppReveal :delay="260">
           <div class="mt-14 grid gap-8 text-sm sm:grid-cols-3">
             <div>
-              <p class="label">Telepon</p>
-              <p class="mt-2">{{ company.contact.phone }}</p>
+              <p class="label">Phone</p>
+              <a
+                :href="`tel:${company.contact.phone.replace(/[^+\d]/g, '')}`"
+                class="link-underline mt-2 inline-block"
+              >
+                {{ company.contact.phone }}
+              </a>
             </div>
             <div>
-              <p class="label">Kantor</p>
+              <p class="label">Based in</p>
               <p class="mt-2">{{ company.contact.address }}</p>
             </div>
             <div>
-              <p class="label">Jam kerja</p>
-              <p class="mt-2">Senin – Jumat, 09.00 – 18.00 WIB</p>
+              <p class="label">Scope</p>
+              <p class="mt-2">{{ company.tagline }}</p>
             </div>
           </div>
         </AppReveal>
