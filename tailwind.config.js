@@ -3,11 +3,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#0E0E0E',
+        ink: '#0B0E3A',
         paper: '#F6F5F2',
         muted: '#6B6862',
         line: '#DAD7D0',
-        accent: '#B4552D',
+        accent: '#9B3E37',
+        navy: '#0B0E3A',
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
