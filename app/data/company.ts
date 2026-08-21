@@ -1,13 +1,13 @@
 export const company = {
   name: 'Axmedia',
-  legalName: 'PT Axmedia Kreasi Indonesia',
-  tagline: 'Media that moves people',
+  legalName: 'PT Nova Axmedia Branding',
+  tagline: 'Retail Branding & Out-of-Home Media',
   intro:
-    'Kami adalah mitra media dan komunikasi terintegrasi yang membantu merek tumbuh melalui strategi, kreatif, dan eksekusi yang terukur.',
+    'Kami adalah mitra retail branding dan out-of-home media yang membantu merek tumbuh lewat strategi, kreatif, dan eksekusi yang terukur.',
   year: 2026,
   contact: {
-    email: 'hello@axmedia.co.id',
-    phone: '+62 21 5000 1234',
+    email: 'finance@axmediabranding.com',
+    phone: '0987785134147',
     address: 'Jakarta, Indonesia',
   },
   social: [

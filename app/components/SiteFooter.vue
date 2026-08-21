@@ -6,7 +6,7 @@ import { company } from '~/data/company'
   <footer class="rule">
     <div class="shell grid gap-10 py-16 md:grid-cols-[1.4fr_1fr_1fr]">
       <div>
-        <p class="font-display text-3xl">Axmedia<span class="text-accent">.</span></p>
+        <img src="/logo.png" alt="Axmedia" class="h-8 w-auto" width="1200" height="181">
         <p class="mt-4 max-w-xs text-sm leading-relaxed text-muted">
           {{ company.legalName }} — {{ company.contact.address }}
         </p>

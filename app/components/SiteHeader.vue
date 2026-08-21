@@ -35,8 +35,8 @@ watch(open, (value) => {
     :class="scrolled || open ? 'bg-paper/90 backdrop-blur border-b border-line' : 'bg-transparent'"
   >
     <div class="shell flex h-20 items-center justify-between">
-      <NuxtLink to="/" class="font-display text-2xl tracking-tight" @click="open = false">
-        Axmedia<span class="text-accent">.</span>
+      <NuxtLink to="/" class="flex items-center" aria-label="Axmedia" @click="open = false">
+        <img src="/logo.png" alt="Axmedia" class="h-6 w-auto md:h-7" width="1200" height="181">
       </NuxtLink>
 
       <nav class="hidden items-center gap-10 md:flex">
