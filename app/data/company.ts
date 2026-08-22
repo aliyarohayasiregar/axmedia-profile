@@ -10,10 +10,7 @@ export const company = {
     phone: '+62 851-2962-4233',
     address: 'Indonesia',
   },
-  social: [
-    { label: 'Instagram', href: 'https://instagram.com' },
-    { label: 'LinkedIn', href: 'https://linkedin.com' },
-  ],
+  social: [{ label: 'Instagram', href: 'https://www.instagram.com/dhomanhuri' }],
 }
 
 export const stats = [
@@ -204,7 +201,14 @@ export const work = [
   },
 ]
 
-export const clients = [
+export type Client = {
+  name: string
+  category: string
+  /** Optional logo file in `public/clients/`; falls back to a typographic wordmark. */
+  logo?: string
+}
+
+export const clients: Client[] = [
   { name: 'MR.D.I.Y.', category: 'Home Improvement Retail' },
   { name: 'RELX', category: 'Vape Retail' },
   { name: 'Indomaret', category: 'Convenience Store Chain' },
