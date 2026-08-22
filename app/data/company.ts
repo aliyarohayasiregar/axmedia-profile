@@ -10,7 +10,7 @@ export const company = {
     phone: '+62 851-2962-4233',
     address: 'Indonesia',
   },
-  social: [{ label: 'Instagram', href: 'https://www.instagram.com/dhomanhuri' }],
+  social: [{ label: 'Instagram', href: 'https://www.instagram.com/axmedia.advertising?igsi=MWFmdjJ3dTl0OG50OA%3D%3D&utm_source=qr' }],
 }
 
 export const stats = [
