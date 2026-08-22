@@ -28,7 +28,7 @@ const lane = [...clients, ...clients]
             :src="client.logo"
             :alt="client.name"
             loading="lazy"
-            class="h-10 w-auto opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0"
+            class="h-12 w-auto max-w-[190px] object-contain opacity-70 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 md:h-14"
           >
           <span
             v-else
@@ -44,6 +44,13 @@ const lane = [...clients, ...clients]
     <div class="shell mt-14 grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
       <AppReveal v-for="(client, i) in clients" :key="client.name" :delay="i * 60">
         <div class="rule pt-5">
+          <img
+            v-if="client.logo"
+            :src="client.logo"
+            :alt="client.name"
+            loading="lazy"
+            class="mb-4 h-9 w-auto max-w-[150px] object-contain object-left"
+          >
           <p class="text-lg">{{ client.name }}</p>
           <p class="mt-1 text-sm text-muted">{{ client.category }}</p>
         </div>

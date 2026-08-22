@@ -209,12 +209,16 @@ export type Client = {
 }
 
 export const clients: Client[] = [
-  { name: 'MR.D.I.Y.', category: 'Home Improvement Retail' },
-  { name: 'RELX', category: 'Vape Retail' },
-  { name: 'Indomaret', category: 'Convenience Store Chain' },
-  { name: 'Mayora', category: 'FMCG · Le Minerale' },
-  { name: 'Kraft Heinz ABC', category: 'FMCG · Kecap Manis' },
-  { name: 'Pocari Sweat', category: 'Beverage' },
-  { name: 'HM Sampoerna', category: 'Tobacco' },
-  { name: 'Aspro', category: 'OOH Activation' },
+  { name: 'MR.D.I.Y.', category: 'Home Improvement Retail', logo: '/clients/mrdiy.png' },
+  { name: 'RELX', category: 'Vape Retail', logo: '/clients/relx.png' },
+  { name: 'Indomaret', category: 'Convenience Store Chain', logo: '/clients/indomaret.png' },
+  { name: 'Mayora', category: 'FMCG · Le Minerale', logo: '/clients/mayora.png' },
+  {
+    name: 'Kraft Heinz ABC',
+    category: 'FMCG · Kecap Manis',
+    logo: '/clients/kraft-heinz-abc.png',
+  },
+  { name: 'Pocari Sweat', category: 'Beverage', logo: '/clients/pocari.png' },
+  { name: 'HM Sampoerna', category: 'Tobacco', logo: '/clients/sampoerna.png' },
+  { name: 'Aspro', category: 'OOH Activation', logo: '/clients/aspro.png' },
 ]
